@@ -1,0 +1,19 @@
+@import './App.css';
+
+:root {
+  font-family: 'DM Sans', 'Segoe UI', sans-serif;
+  color: var(--ink, #20332c);
+  background: var(--paper, #f5f8f5);
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-optical-sizing: auto;
+}
+
+* { box-sizing: border-box; }
+html { min-width: 320px; scroll-behavior: smooth; }
+body { min-width: 320px; min-height: 100vh; margin: 0; }
+button, textarea { font: inherit; }
+button:focus-visible, a:focus-visible, textarea:focus-visible, label:focus-within { outline: 2px solid #cb674d; outline-offset: 3px; }
+#root { min-height: 100vh; }
